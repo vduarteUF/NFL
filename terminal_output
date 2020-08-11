@@ -1,0 +1,208 @@
+COLUMNS IN DATASET
+['play_id' 'game_id' 'home_team' 'away_team' 'posteam' 'posteam_type'
+ 'defteam' 'side_of_field' 'yardline_100' 'game_date'
+ 'quarter_seconds_remaining' 'half_seconds_remaining'
+ 'game_seconds_remaining' 'game_half' 'quarter_end' 'drive' 'sp' 'qtr'
+ 'down' 'goal_to_go' 'time' 'yrdln' 'ydstogo' 'ydsnet' 'desc' 'play_type'
+ 'yards_gained' 'shotgun' 'no_huddle' 'qb_dropback' 'qb_kneel' 'qb_spike'
+ 'qb_scramble' 'pass_length' 'pass_location' 'air_yards'
+ 'yards_after_catch' 'run_location' 'run_gap' 'field_goal_result'
+ 'kick_distance' 'extra_point_result' 'two_point_conv_result'
+ 'home_timeouts_remaining' 'away_timeouts_remaining' 'timeout'
+ 'timeout_team' 'td_team' 'posteam_timeouts_remaining'
+ 'defteam_timeouts_remaining' 'total_home_score' 'total_away_score'
+ 'posteam_score' 'defteam_score' 'score_differential' 'posteam_score_post'
+ 'defteam_score_post' 'score_differential_post' 'no_score_prob'
+ 'opp_fg_prob' 'opp_safety_prob' 'opp_td_prob' 'fg_prob' 'safety_prob'
+ 'td_prob' 'extra_point_prob' 'two_point_conversion_prob' 'ep' 'epa'
+ 'total_home_epa' 'total_away_epa' 'total_home_rush_epa'
+ 'total_away_rush_epa' 'total_home_pass_epa' 'total_away_pass_epa'
+ 'air_epa' 'yac_epa' 'comp_air_epa' 'comp_yac_epa'
+ 'total_home_comp_air_epa' 'total_away_comp_air_epa'
+ 'total_home_comp_yac_epa' 'total_away_comp_yac_epa'
+ 'total_home_raw_air_epa' 'total_away_raw_air_epa'
+ 'total_home_raw_yac_epa' 'total_away_raw_yac_epa' 'wp' 'def_wp' 'home_wp'
+ 'away_wp' 'wpa' 'home_wp_post' 'away_wp_post' 'total_home_rush_wpa'
+ 'total_away_rush_wpa' 'total_home_pass_wpa' 'total_away_pass_wpa'
+ 'air_wpa' 'yac_wpa' 'comp_air_wpa' 'comp_yac_wpa'
+ 'total_home_comp_air_wpa' 'total_away_comp_air_wpa'
+ 'total_home_comp_yac_wpa' 'total_away_comp_yac_wpa'
+ 'total_home_raw_air_wpa' 'total_away_raw_air_wpa'
+ 'total_home_raw_yac_wpa' 'total_away_raw_yac_wpa' 'punt_blocked'
+ 'first_down_rush' 'first_down_pass' 'first_down_penalty'
+ 'third_down_converted' 'third_down_failed' 'fourth_down_converted'
+ 'fourth_down_failed' 'incomplete_pass' 'interception'
+ 'punt_inside_twenty' 'punt_in_endzone' 'punt_out_of_bounds' 'punt_downed'
+ 'punt_fair_catch' 'kickoff_inside_twenty' 'kickoff_in_endzone'
+ 'kickoff_out_of_bounds' 'kickoff_downed' 'kickoff_fair_catch'
+ 'fumble_forced' 'fumble_not_forced' 'fumble_out_of_bounds' 'solo_tackle'
+ 'safety' 'penalty' 'tackled_for_loss' 'fumble_lost'
+ 'own_kickoff_recovery' 'own_kickoff_recovery_td' 'qb_hit' 'rush_attempt'
+ 'pass_attempt' 'sack' 'touchdown' 'pass_touchdown' 'rush_touchdown'
+ 'return_touchdown' 'extra_point_attempt' 'two_point_attempt'
+ 'field_goal_attempt' 'kickoff_attempt' 'punt_attempt' 'fumble'
+ 'complete_pass' 'assist_tackle' 'lateral_reception' 'lateral_rush'
+ 'lateral_return' 'lateral_recovery' 'passer_player_id'
+ 'passer_player_name' 'receiver_player_id' 'receiver_player_name'
+ 'rusher_player_id' 'rusher_player_name' 'lateral_receiver_player_id'
+ 'lateral_receiver_player_name' 'lateral_rusher_player_id'
+ 'lateral_rusher_player_name' 'lateral_sack_player_id'
+ 'lateral_sack_player_name' 'interception_player_id'
+ 'interception_player_name' 'lateral_interception_player_id'
+ 'lateral_interception_player_name' 'punt_returner_player_id'
+ 'punt_returner_player_name' 'lateral_punt_returner_player_id'
+ 'lateral_punt_returner_player_name' 'kickoff_returner_player_name'
+ 'kickoff_returner_player_id' 'lateral_kickoff_returner_player_id'
+ 'lateral_kickoff_returner_player_name' 'punter_player_id'
+ 'punter_player_name' 'kicker_player_name' 'kicker_player_id'
+ 'own_kickoff_recovery_player_id' 'own_kickoff_recovery_player_name'
+ 'blocked_player_id' 'blocked_player_name' 'tackle_for_loss_1_player_id'
+ 'tackle_for_loss_1_player_name' 'tackle_for_loss_2_player_id'
+ 'tackle_for_loss_2_player_name' 'qb_hit_1_player_id'
+ 'qb_hit_1_player_name' 'qb_hit_2_player_id' 'qb_hit_2_player_name'
+ 'forced_fumble_player_1_team' 'forced_fumble_player_1_player_id'
+ 'forced_fumble_player_1_player_name' 'forced_fumble_player_2_team'
+ 'forced_fumble_player_2_player_id' 'forced_fumble_player_2_player_name'
+ 'solo_tackle_1_team' 'solo_tackle_2_team' 'solo_tackle_1_player_id'
+ 'solo_tackle_2_player_id' 'solo_tackle_1_player_name'
+ 'solo_tackle_2_player_name' 'assist_tackle_1_player_id'
+ 'assist_tackle_1_player_name' 'assist_tackle_1_team'
+ 'assist_tackle_2_player_id' 'assist_tackle_2_player_name'
+ 'assist_tackle_2_team' 'assist_tackle_3_player_id'
+ 'assist_tackle_3_player_name' 'assist_tackle_3_team'
+ 'assist_tackle_4_player_id' 'assist_tackle_4_player_name'
+ 'assist_tackle_4_team' 'pass_defense_1_player_id'
+ 'pass_defense_1_player_name' 'pass_defense_2_player_id'
+ 'pass_defense_2_player_name' 'fumbled_1_team' 'fumbled_1_player_id'
+ 'fumbled_1_player_name' 'fumbled_2_player_id' 'fumbled_2_player_name'
+ 'fumbled_2_team' 'fumble_recovery_1_team' 'fumble_recovery_1_yards'
+ 'fumble_recovery_1_player_id' 'fumble_recovery_1_player_name'
+ 'fumble_recovery_2_team' 'fumble_recovery_2_yards'
+ 'fumble_recovery_2_player_id' 'fumble_recovery_2_player_name'
+ 'return_team' 'return_yards' 'penalty_team' 'penalty_player_id'
+ 'penalty_player_name' 'penalty_yards' 'replay_or_challenge'
+ 'replay_or_challenge_result' 'penalty_type' 'defensive_two_point_attempt'
+ 'defensive_two_point_conv' 'defensive_extra_point_attempt'
+ 'defensive_extra_point_conv']
+
+NULL VALUES LEFT IN FEATURES
+interception                 0
+fourth_down_converted        0
+fourth_down_failed           0
+fumble                       0
+safety                       0
+touchdown                    0
+sack                         0
+third_down_converted         0
+third_down_failed            0
+punt_attempt                 0
+tackled_for_loss             0
+punt_blocked                 0
+punt_attempt                 0
+isHome                       0
+no_huddle                    0
+shotgun                      0
+made3Points                  0
+incomplete_pass              0
+game_seconds_remaining       0
+field_goal_result_new        0
+two_point_conv_result_new    0
+extra_point_result_new       0
+ydstogo                      0
+home_timeouts_remaining      0
+away_timeouts_remaining      0
+redZone                      0
+NFCNorth                     0
+NFCSouth                     0
+NFCWest                      0
+NFCEast                      0
+AFCNorth                     0
+AFCSouth                     0
+AFCEast                      0
+AFCWest                      0
+Brady                        0
+Brees                        0
+Rodgers                      0
+Roethlisberger               0
+Manning                      0
+Wilson                       0
+Luck                         0
+Fitzpatrick                  0
+Stafford                     0
+posteam_score                0
+defteam_score                0
+score_differential           0
+yardline_100                 0
+dtype: int64
+
+CLEANED DATAFRAME
+        play_id     game_id home_team away_team  ... score_differential_pre field_goal_result_new two_point_conv_result_new extra_point_result_new
+0            46  2009091000       PIT       TEN  ...                    0.0                     0                         0                      0
+1            68  2009091000       PIT       TEN  ...                    0.0                     0                         0                      0
+2            92  2009091000       PIT       TEN  ...                    0.0                     0                         0                      0
+3           113  2009091000       PIT       TEN  ...                    0.0                     0                         0                      0
+4           139  2009091000       PIT       TEN  ...                    0.0                     0                         0                      0
+...         ...         ...       ...       ...  ...                    ...                   ...                       ...                    ...
+449365     4027  2018121700       CAR        NO  ...                   -5.0                     0                         0                      0
+449366     4059  2018121700       CAR        NO  ...                   -5.0                     0                         0                      0
+449367     4081  2018121700       CAR        NO  ...                   -5.0                     0                         0                      0
+449368     4106  2018121700       CAR        NO  ...                   -5.0                     0                         0                      0
+449369     4128  2018121700       CAR        NO  ...                   -5.0                     0                         0                      0
+
+[436276 rows x 282 columns]
+ROC AUC
+train: 0.854582183404389
+test: 0.8488967552624812
+                           rate of importance
+interception                     4.612786e-04
+fourth_down_converted            3.558557e-05
+fourth_down_failed               2.879822e-04
+fumble                           1.388069e-04
+safety                           0.000000e+00
+touchdown                        7.288728e-04
+sack                             4.125594e-04
+third_down_converted             4.912954e-04
+third_down_failed                8.959332e-04
+punt_attempt                     6.008740e-04
+tackled_for_loss                 1.301768e-04
+punt_blocked                     3.765895e-07
+punt_attempt                     6.905463e-04
+isHome                           2.718684e-01
+no_huddle                        2.408693e-03
+shotgun                          7.151360e-03
+made3Points                      1.654598e-04
+incomplete_pass                  2.321987e-03
+game_seconds_remaining           4.748920e-02
+field_goal_result_new            2.063484e-04
+two_point_conv_result_new        2.744165e-05
+extra_point_result_new           6.471835e-04
+ydstogo                          4.012827e-03
+home_timeouts_remaining          3.059617e-02
+away_timeouts_remaining          2.078046e-02
+redZone                          3.875672e-03
+NFCNorth                         5.023237e-03
+NFCSouth                         1.744377e-03
+NFCWest                          2.086859e-03
+NFCEast                          9.766726e-03
+AFCNorth                         2.882739e-03
+AFCSouth                         3.520895e-03
+AFCEast                          3.402101e-03
+AFCWest                          1.931144e-03
+Brady                            5.225545e-03
+Brees                            1.082227e-03
+Rodgers                          1.875465e-03
+Roethlisberger                   1.249387e-03
+Manning                          2.569825e-03
+Wilson                           1.675564e-03
+Luck                             8.691163e-04
+Fitzpatrick                      3.734922e-04
+Stafford                         6.656767e-04
+posteam_score                    9.921121e-02
+defteam_score                    1.059808e-01
+score_differential               3.399377e-01
+yardline_100                     1.250040e-02
+ROC AUC CROSS VALIDATION
+[0.83677011 0.81622358 0.82247563 0.81812645 0.84307605]
+ROC AUC MEAN
+0.8273343652725066
+Test Results were successfully saved!
